@@ -1,6 +1,9 @@
 <template>
   <div class="Lili">
     <h1>{{ num }}</h1>
+    <h1>{{ num }}</h1>
+    <h1>{{ num }}</h1>
+    <h1>{{ num }}</h1>
     </div>
 </template>
 
