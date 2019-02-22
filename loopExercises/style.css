@@ -1,0 +1,11 @@
+html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+table, td {
+    border: 1px solid black;
+}
