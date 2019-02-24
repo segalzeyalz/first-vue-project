@@ -11,6 +11,7 @@ new Vue({
     el: '#app',
     data: {
       boom:boom,
+      n:10,
       people: [{
         "first_name": "Sebastian",
         "last_name": "Malser",
