@@ -1,6 +1,16 @@
+let boom = [];
+for (let i=0; i<100; i++){
+  if(i%7===0 || (i-7)%10===0){
+    boom.push("boom")
+  }else{
+    boom.push(i)
+  }
+}
+
 new Vue({
     el: '#app',
     data: {
+      boom:boom,
       people: [{
         "first_name": "Sebastian",
         "last_name": "Malser",
