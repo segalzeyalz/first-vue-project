@@ -263,5 +263,17 @@ new Vue({
         "email": "msalkild1d@wiley.com",
         "gender": "Female"
       }]
+    },
+    methods: {
+        addNum:function(){
+        let num = this.boom.length;
+        let toPush;
+        if(num%7===0 || num%10===7){
+          toPush = "boom"
+        }else{ 
+          toPush = num;
+        }
+        this.boom = [...this.boom, toPush]
+      }
     }
   })

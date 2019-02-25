@@ -1,0 +1,12 @@
+<html>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div id="app">
+        <h1>7 BOOM</h1>
+        <ul>
+            <li v-for="b in boom">{{b}}</li>
+        </ul>
+        <button v-on:click="addNum()">Add Num</button>
+    </div>
+    <script src="./script.js"></script>
+</html>

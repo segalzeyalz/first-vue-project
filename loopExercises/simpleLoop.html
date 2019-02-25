@@ -1,0 +1,15 @@
+<html>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <div id="app">
+        <!-- A simple loop example -->
+        <h1>A Simple loop from 1 to 10</h1>
+        <ul>
+            <li v-for="num in n">{{ num }}</li>
+        </ul>
+        <button v-on:click="n++">Add Num</button>
+
+    </div>
+    <script src="./script.js"></script>
+</html>
