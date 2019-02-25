@@ -1,8 +1,11 @@
 <html>
     <script src="https://unpkg.com/vue"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    
     <div id="app">
-        
+        {{num}}
+        max Range: {{range}}
+        <button v-on:click="randomizeNum()">Random Number</button>
+     </div>   
     <script src="./script.js"></script>
 </html>
